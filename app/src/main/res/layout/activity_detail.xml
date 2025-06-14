@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000055">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000055"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Bill Details"
+            android:textColor="#00FFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Month:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electric Unit:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Charges:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textRebate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rebate:"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final Cost:"
+            android:textColor="#FFFFFF" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#D32F2F"
+            android:text="Delete"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
