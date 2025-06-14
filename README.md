@@ -20,8 +20,3 @@ The **Electricity Bill App** is a simple Android application designed to help us
 - **IDE:** Android Studio
 - **Database:** SQLite
 - **UI:** Android UI components (Activity, ListView, RadioButton, Button)
-
-## 🟣 Installation
-1. **Clone this repository:**  
-```bash
-git clone https://github.com/yourUsername/yourRepository.git
