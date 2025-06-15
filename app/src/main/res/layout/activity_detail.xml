@@ -57,7 +57,6 @@
             android:text="Final Cost:"
             android:textColor="#FFFFFF" />
 
-        <!-- Delete Button -->
         <Button
             android:id="@+id/btnDelete"
             android:layout_width="match_parent"
