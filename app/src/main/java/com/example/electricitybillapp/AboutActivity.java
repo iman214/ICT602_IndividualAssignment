@@ -22,6 +22,6 @@ public class AboutActivity extends AppCompatActivity {
                         "© 2025 All rights reserved."
         );
 
-        linkGithub.setText("https://github.com/amiruliman/electricity-bill-app");
+        linkGithub.setText("https://github.com/iman214/ICT602_IndividualAssignment.git");
     }
 }
